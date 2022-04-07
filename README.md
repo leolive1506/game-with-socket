@@ -132,6 +132,9 @@ function createKeyboardListener() {
 }
 ```
 
+## QuadTree
+- Tem relação como distribui objetos dentro da estrutura de dados
+
 # Dicas gerais
 - pegar toda tecla digitada
 ```js
