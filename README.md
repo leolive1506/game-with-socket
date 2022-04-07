@@ -80,9 +80,18 @@ requestAnimationFrame(funcao_ser_chamada)
 	3. Componentes não se conhecem nem de forma estática, pois não existe declaraçao ou chamada dentro dele
 		- Para chegar nesse nível de acoplamento, usado no codigo Observer
 
+
+
+## Factory
+- Função que quando executada, retorna um objeto
+
+## Injeção de depencia
+- Injetar uma intancia de um objeto
+
 ## Observer
 - Ficam observando um determinado objeto
 - Criando um 
+- Ex abaixo: Increve uma função que vai receber o comando, e assim que digitar algo, executa todas as funções no array observers
 ```js
 const keyboardListener = createKeyboardListener()
 // escreve a função movePlayer dentro do subscribe
@@ -122,11 +131,6 @@ function createKeyboardListener() {
     }
 }
 ```
-## Factory
-- Função que quando executada, retorna um objeto
-
-## Injeção de depencia
-- Injetar uma intancia de um objeto
 
 # Dicas gerais
 - pegar toda tecla digitada
